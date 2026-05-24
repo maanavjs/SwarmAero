@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-369f621ddebfb864fd5f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "px4_msgs__py",
+					"jsonFile" : "directory-px4_msgs__py-735cff795fc35a2fd6a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs/px4_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "px4_msgs__rs",
+					"jsonFile" : "directory-px4_msgs__rs-47eb0f6f0eaf8ad2b3cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs/px4_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "px4_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_px4_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_px4_msgs_egg-4848485ca891ab1e4bb1.json",
+					"name" : "ament_cmake_python_build_px4_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_px4_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_px4_msgs-a4d29ceb05c2adf2136c.json",
+					"name" : "ament_cmake_python_symlink_px4_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs-335477b773cefaea0416.json",
+					"name" : "px4_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__cpp-f35bc749e09a115dd94b.json",
+					"name" : "px4_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "px4_msgs__py::@2036f14245c7957b8037",
+					"jsonFile" : "target-px4_msgs__py-097d6dd98410b4f5382a.json",
+					"name" : "px4_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_generator_c-f78004606df24386c99e.json",
+					"name" : "px4_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_generator_py-35220e44cc2c09515eaa.json",
+					"name" : "px4_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_c-4b7ffdf87842897b4e90.json",
+					"name" : "px4_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_c__pyext-9015bc6761a8f53a8b13.json",
+					"name" : "px4_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_cpp-b58e7d8fc86121711b7e.json",
+					"name" : "px4_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_fastrtps_c-34394bdd8c4b6cbd490a.json",
+					"name" : "px4_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_fastrtps_c__pyext-0d0bb611489bde74588b.json",
+					"name" : "px4_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_fastrtps_cpp-3237d71e956217c45e93.json",
+					"name" : "px4_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_introspection_c-c10b31b077bc466cd7cc.json",
+					"name" : "px4_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_introspection_c__pyext-f049eabcaf6220025db0.json",
+					"name" : "px4_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_introspection_cpp-ae161103c50901c7396c.json",
+					"name" : "px4_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "px4_msgs__rs::@2067fd3fa002967ae5f5",
+					"jsonFile" : "target-px4_msgs__rs-d2d5f6b8f4c123ad42cc.json",
+					"name" : "px4_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs_uninstall-991dcb5a09b1ab490a0c.json",
+					"name" : "px4_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d2f9eaf724f0e7aae7fa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs",
+		"source" : "/home/maanavjugalshah/SwarmAero/ros2_ws/src/px4_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

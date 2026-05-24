@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating swarm_ekf.egg-info
+writing swarm_ekf.egg-info/PKG-INFO
+writing dependency_links to swarm_ekf.egg-info/dependency_links.txt
+writing entry points to swarm_ekf.egg-info/entry_points.txt
+writing requirements to swarm_ekf.egg-info/requires.txt
+writing top-level names to swarm_ekf.egg-info/top_level.txt
+writing manifest file 'swarm_ekf.egg-info/SOURCES.txt'
+reading manifest file 'swarm_ekf.egg-info/SOURCES.txt'
+writing manifest file 'swarm_ekf.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/lib/python3.10/site-packages/swarm-ekf.egg-link (link to .)
+
+Installed /home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf
+running symlink_data
+creating /home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/ament_index
+creating /home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/ament_index/resource_index
+creating /home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/ament_index/resource_index/packages
+symbolically linking /home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf/resource/swarm_ekf -> /home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/ament_index/resource_index/packages
+symbolically linking /home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf/package.xml -> /home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/swarm_ekf

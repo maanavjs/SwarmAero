@@ -1,0 +1,216 @@
+[0.509s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.509s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76ebc991f880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76ebc9a613c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76ebc9a613c0>>)
+[0.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.935s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/maanavjugalshah/SwarmAero/ros2_ws'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[1.004s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_ekf) by extensions ['ignore', 'ignore_ament_install']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_ekf) by extension 'ignore'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_ekf) by extension 'ignore_ament_install'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_ekf) by extensions ['colcon_pkg']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_ekf) by extension 'colcon_pkg'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_ekf) by extensions ['colcon_meta']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_ekf) by extension 'colcon_meta'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_ekf) by extensions ['ros']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_ekf) by extension 'ros'
+[1.007s] DEBUG:colcon.colcon_core.package_identification:Package 'src/swarm_ekf' with type 'ros.ament_python' and name 'swarm_ekf'
+[1.008s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.008s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.008s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.008s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.008s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.110s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/maanavjugalshah/swarm_ws/install
+[1.113s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[1.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.194s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'px4_msgs' is in: /home/maanavjugalshah/swarm_ws/install/px4_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding px4_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.196s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.196s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/maanavjugalshah/SwarmAero/ros2_ws/src/px4_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'swarm_ekf' build argument 'cmake_args' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'swarm_ekf' build argument 'cmake_target' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'swarm_ekf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'swarm_ekf' build argument 'cmake_clean_cache' from command line to 'False'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'swarm_ekf' build argument 'cmake_clean_first' from command line to 'False'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'swarm_ekf' build argument 'cmake_force_configure' from command line to 'False'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'swarm_ekf' build argument 'ament_cmake_args' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'swarm_ekf' build argument 'catkin_cmake_args' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'swarm_ekf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.197s] DEBUG:colcon.colcon_core.verb:Building package 'swarm_ekf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf', 'merge_install': False, 'path': '/home/maanavjugalshah/SwarmAero/ros2_ws/src/swarm_ekf', 'symlink_install': True, 'test_result_base': None}
+[1.197s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.201s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.201s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maanavjugalshah/SwarmAero/ros2_ws/src/px4_msgs' with build type 'ament_cmake'
+[1.201s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maanavjugalshah/SwarmAero/ros2_ws/src/px4_msgs'
+[1.220s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maanavjugalshah/SwarmAero/ros2_ws/src/px4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs
+[16.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maanavjugalshah/SwarmAero/ros2_ws/src/px4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs
+[16.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs -- -j16 -l16
+[756.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs -- -j16 -l16
+[756.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs
+[838.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[838.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maanavjugalshah/SwarmAero/ros2_ws/build/px4_msgs
+[838.397s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs' for CMake module files
+[838.398s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs' for CMake config files
+[838.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[838.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[838.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[838.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[838.410s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/lib'
+[838.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[838.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[838.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[838.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[838.413s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/bin'
+[838.413s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[838.413s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[838.414s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/bin'
+[838.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[838.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[838.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[838.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[838.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[838.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[838.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[838.429s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs' for CMake module files
+[838.430s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs' for CMake config files
+[838.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[838.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[838.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[838.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[838.438s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/lib'
+[838.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[838.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[838.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[838.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[838.441s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/bin'
+[838.441s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[838.441s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[838.442s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/bin'
+[838.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[838.444s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[838.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[838.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[838.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[838.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[838.449s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/maanavjugalshah/SwarmAero/ros2_ws/src/swarm_ekf' with build type 'ament_python'
+[838.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('swarm_ekf', 'ament_prefix_path')
+[838.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/swarm_ekf/hook/ament_prefix_path.ps1'
+[838.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/swarm_ekf/hook/ament_prefix_path.dsv'
+[838.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/swarm_ekf/hook/ament_prefix_path.sh'
+[838.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[838.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[839.372s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/maanavjugalshah/SwarmAero/ros2_ws/src/swarm_ekf'
+[839.373s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[839.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[840.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf': AMENT_PREFIX_PATH=/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/lib/python3.10/site-packages:/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf/build --no-deps symlink_data
+[841.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('swarm_ekf', 'pythonpath_develop')
+[841.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf/share/swarm_ekf/hook/pythonpath_develop.ps1'
+[841.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf' returned '0': AMENT_PREFIX_PATH=/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/lib/python3.10/site-packages:/home/maanavjugalshah/SwarmAero/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf/build --no-deps symlink_data
+[841.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf/share/swarm_ekf/hook/pythonpath_develop.dsv'
+[841.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf/share/swarm_ekf/hook/pythonpath_develop.sh'
+[841.737s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf' for CMake module files
+[841.738s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf' for CMake config files
+[841.738s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/lib'
+[841.739s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/bin'
+[841.739s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/lib/pkgconfig/swarm_ekf.pc'
+[841.739s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/lib/python3.10/site-packages'
+[841.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('swarm_ekf', 'pythonpath')
+[841.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/swarm_ekf/hook/pythonpath.ps1'
+[841.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/swarm_ekf/hook/pythonpath.dsv'
+[841.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/swarm_ekf/hook/pythonpath.sh'
+[841.742s] Level 1:colcon.colcon_core.environment:checking '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/bin'
+[841.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swarm_ekf)
+[841.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/swarm_ekf/package.ps1'
+[841.746s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/swarm_ekf/package.dsv'
+[841.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/swarm_ekf/package.sh'
+[841.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/swarm_ekf/package.bash'
+[841.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/swarm_ekf/package.zsh'
+[841.757s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/share/colcon-core/packages/swarm_ekf)
+[841.758s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[841.758s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[841.758s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[841.758s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[841.949s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[841.949s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[841.950s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[841.950s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[841.950s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[841.951s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[841.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/local_setup.ps1'
+[841.954s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maanavjugalshah/SwarmAero/ros2_ws/install/_local_setup_util_ps1.py'
+[841.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/setup.ps1'
+[841.960s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/local_setup.sh'
+[841.962s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maanavjugalshah/SwarmAero/ros2_ws/install/_local_setup_util_sh.py'
+[841.963s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/setup.sh'
+[841.968s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/local_setup.bash'
+[841.978s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/setup.bash'
+[841.980s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/local_setup.zsh'
+[841.982s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maanavjugalshah/SwarmAero/ros2_ws/install/setup.zsh'

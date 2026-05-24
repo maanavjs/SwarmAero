@@ -1,0 +1,17 @@
+[1.078s] Invoking command in '/home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf': PYTHONPATH=/home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf/build --no-deps symlink_data
+[1.329s] running develop
+[1.469s] running egg_info
+[1.469s] writing swarm_ekf.egg-info/PKG-INFO
+[1.469s] writing dependency_links to swarm_ekf.egg-info/dependency_links.txt
+[1.470s] writing entry points to swarm_ekf.egg-info/entry_points.txt
+[1.470s] writing requirements to swarm_ekf.egg-info/requires.txt
+[1.470s] writing top-level names to swarm_ekf.egg-info/top_level.txt
+[1.471s] reading manifest file 'swarm_ekf.egg-info/SOURCES.txt'
+[1.472s] writing manifest file 'swarm_ekf.egg-info/SOURCES.txt'
+[1.473s] running build_ext
+[1.473s] Creating /home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/lib/python3.10/site-packages/swarm-ekf.egg-link (link to .)
+[1.474s] Installing ekf_node script to /home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/lib/swarm_ekf
+[1.475s] 
+[1.475s] Installed /home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf
+[1.475s] running symlink_data
+[1.504s] Invoked command in '/home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf' returned '0': PYTHONPATH=/home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maanavjugalshah/SwarmAero/ros2_ws/install/swarm_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maanavjugalshah/SwarmAero/ros2_ws/build/swarm_ekf/build --no-deps symlink_data
